@@ -1,0 +1,192 @@
+body { 
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    background-image: url(https://figma.imgix.net/2IbDe0WqZiGVpEvYvQ4YUp/020086ffab6a840d595a48244e2f01eb/Patterns_Header_Image.png?&w=1060&auto=compress%2Cformat&crop=entropy&fit=crop&q=75);
+    background-size: cover;
+background-attachment: fixed;}
+
+h1, header { 
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    color: rgb(23, 16, 122);
+    background-color: white;
+    height: 65px;
+    width: 2000px;
+    position: fixed;
+    left: 0px;
+    z-index: 98;
+    font-size: 35px;}
+
+h3 ,h4 ,h5 , .aud{ 
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(253, 253, 253);}
+
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(22, 15, 117);
+    position: fixed;
+    left: 43%;
+    top: 0px;
+    z-index: 99;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;}
+
+#perfil { 
+    color: rgb(255, 255, 255);
+    background-color:rgb(41, 12, 143);
+    width: 600px;
+    font-size: 20px;
+    position: relative;
+    left: 30%;}
+
+p { 
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);}
+
+ol , ul ,li {
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 25px;}
+
+.pass {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 25px;}
+
+.volt {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;}
+
+.tit {
+    background-color: black;
+    color: white;
+    border-style: groove;
+    border-width: 10px;
+    border-color: white;}
+
+video {
+    align-content: center;}
+
+.hob {
+    background-color: black;
+    text-align: center;
+    display: flex;}
+
+.area {
+    width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    border-width: 20px;
+    background-color: rgb(80, 7, 200);
+    position: relative;
+    left: 3%;}
+
+.destaque {
+    background-color: rgb(255, 255, 255);
+    color: #0a007a;
+    font-size: 22px;}
+
+.cube {
+    width: 500PX;
+    margin: 20px auto;
+    padding: 5px;
+    border-width: 10px;
+    background-color: rgb(80, 7, 200);
+    position: relative;
+    left: 3%;}
+
+#music {
+    position: relative;}
+
+#form {
+    background-color: rgb(255, 255, 255);
+    color: #0a007a;
+    font-size: 22px;
+position: fixed;
+right: 10px;
+bottom: 10px;}
+
+.first {
+    position: relative;
+    top: 0;
+    left: 38%;
+    background-color: navy;
+    width: 400px;}
+
+.cont {
+    position: fixed;
+    bottom: 110px;
+    right: 10px;
+    font-size: 30px;}
+
+label {
+    color: white;
+    font-size: 20px;}
+
+input:focus {
+    background-color: rgb(72, 197, 72);}
+
+input {
+    background-color: yellow;
+    font-size: 20px;}
+
+textarea {
+    resize: vertical;
+font-size: 20px;}
+
+button:hover {
+    text-decoration: underline;}
+
+img:hover {
+    border-radius: 20px;
+opacity: 0.75;}
+
+div, section {
+    box-sizing: border-box;
+    border-style: groove;
+    border-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+
+article {
+    border-style: ridge;
+    border-color: rgb(253, 253, 253);
+    border-width: 12px;}
+
+.midia {
+    display: inline-block;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    left: 190px;}
+
+.lazer {
+    display: flex;
+    align-content: flex-start;
+    width: 500px;}
+
+.cube {
+    width: 1050px;}
+
+#Box {
+    background-color: darkred;
+    display: flexbox;
+    align-content: flex-start;}
+
+.abc {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    background-color: rgb(80, 7, 200);
+    bottom: 20px;}

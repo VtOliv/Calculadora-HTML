@@ -1,0 +1,123 @@
+.menu {
+    background-color: darkred;
+    border-style: groove;
+    border-width: 3px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.itens {
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    font-size: 20px;
+}
+.itens:hover {
+    opacity: 0.5;
+    background-color: white;
+    color: black;
+}
+a {
+    color: white;
+}
+.logo {
+    padding: 10px;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+.item {
+    height: 500px;
+}
+img:hover {
+    cursor: pointer;
+}
+body {
+    background-image: url(https://figma.imgix.net/2IbDe0WqZiGVpEvYvQ4YUp/020086ffab6a840d595a48244e2f01eb/Patterns_Header_Image.png?&w=1060&auto=compress%2Cformat&crop=entropy&fit=crop&q=75);
+    position: relative;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;;
+}
+#section1 {
+    padding-top:50px;
+    height:700px;
+    color: rgb(255, 255, 255); 
+    background-color: rgb(56, 14, 14);
+    display: flex;
+}
+#section2 {
+    padding-top:50px;
+    height:700px;
+    color: #fff;
+    background-color: #13015f;
+    display: flex;
+}
+#section3 {
+    padding-top:50px;
+    height:700px;
+    color: #fff; 
+    background-color: #55390f;
+    display: flex;
+}
+#section4 {
+    padding-top:50px;
+    height:700px;
+    color: #fff;
+    background-color: #053a26;
+    display: flex;
+}
+#section5 {
+    padding-top:50px;
+    height:700px;
+    color: #fff; 
+    background-color: #000000;
+    display: flex;
+}
+#section6 {
+    padding-top:50px;
+    height:700px;
+    color: #fff; 
+    background-color: #240f30;
+    display: flex;
+}
+.camis {
+    width: 450px;
+    height: 400px;
+}
+.caption {
+    margin-left: 70px;
+}
+h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 3em;
+}
+.jumbotron {
+    background-color: white;
+    color: black;;
+}
+.legenda {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.topo {
+    position: fixed;
+    right : 15px;
+    bottom: 10px;
+    font-size: 1.5em;
+}
+.mlogo {
+    width: 60px;
+    height: 60px;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.affix ~ .container-fluid {
+   position: relative;
+   top: 50px;
+}
